@@ -1,0 +1,42 @@
+
+
+.textFill:hover{
+-fx-fill: #1876F2;
+}
+
+.loginBtn{
+    -fx-background-color: #F0F0F0;
+    -fx-background-radius: 15;
+    -fx-cursor: Hand;
+
+}
+.loginBtn:hover{
+    -fx-background-color: #D13639;
+}
+
+
+.imageIcon:hover{
+    -fx-fill: #D13639;
+}
+.questionMark:hover{
+    -fx-fill: #1876F2;
+}
+.minimize:hover{
+    -fx-fill: #2A2F2C;
+}
+
+@font-face {
+    font-family: 'futurama' ;
+    src: url('fr-bold.tff');
+}
+.changeText{
+    -fx-font-family: "futurama"
+}
+.settingsBtn {
+    -fx-background-color: #7c777B;
+    -fx-background-radius: 5;
+    -fx-cursor: Hand;
+}
+.settingsBtn:hover{
+    -fx-background-color: #D2D2D2;
+}
